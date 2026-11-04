@@ -1,0 +1,219 @@
+[
+  {
+    "file": "fiance-family-petitions.html",
+    "key": "family",
+    "label": "Family-based support",
+    "title": "Fiancé & family petitions",
+    "hero": "Keep the family paperwork in focus.",
+    "intro": "Immigration document support for fiancé and family-based petition materials listed by INFRA701 LEGAL.",
+    "items": [
+      {
+        "title": "Fiancé petition materials",
+        "text": "The current service list names Form I-129F, a cover letter, intent-to-marry letter, meeting letter, and cover page."
+      },
+      {
+        "title": "Family petition forms",
+        "text": "The published list includes Forms I-130, I-131, I-765, I-864, and I-485, along with CR-1 and IR-1 categories."
+      },
+      {
+        "title": "Document preparation",
+        "text": "The firm describes its role as helping prepare and organize immigration documents. It does not provide legal advice or court representation."
+      }
+    ],
+    "chips": ["I-129F", "I-130", "I-131", "I-765", "I-864", "I-485", "CR-1 / IR-1"],
+    "note": "Which forms and supporting materials apply depends on the matter. Contact the office to confirm the current service scope."
+  },
+  {
+    "file": "employment-based-petitions.html",
+    "key": "employment",
+    "label": "Employment-based support",
+    "title": "Employment-based petitions",
+    "hero": "Organize the details behind the petition.",
+    "intro": "Document preparation support for employment-based categories listed by INFRA701 LEGAL, including EB-2 NIW and EB-1A.",
+    "items": [
+      {
+        "title": "EB-2 NIW",
+        "text": "The existing service list names EB-2 NIW support, petition letters, business plans, and form completion."
+      },
+      {
+        "title": "EB-1A",
+        "text": "EB-1A appears as a separate employment-based category on the current website."
+      },
+      {
+        "title": "Preparation materials",
+        "text": "The page lists petition letters, business plans, and form-filling support. Confirm the current service scope and process with the office."
+      }
+    ],
+    "chips": ["EB-2 NIW", "EB-1A", "Petition letters", "Business plans", "Form completion"],
+    "note": "INFRA701 LEGAL identifies its immigration providers as California Immigration Consultants, not attorneys. No legal advice or court representation is offered."
+  },
+  {
+    "file": "visitor-visas.html",
+    "key": "visitor",
+    "label": "Visitor visa support",
+    "title": "Visitor visas",
+    "hero": "Prepare the supporting details with care.",
+    "intro": "The current website lists B-1/B-2 visitor visa support, including document preparation for a travel-related application.",
+    "items": [
+      {
+        "title": "B-1 / B-2 categories",
+        "text": "The published service list names B-1/B-2 visitor visas."
+      },
+      {
+        "title": "Supporting documents",
+        "text": "The site lists cover letters, travel itineraries, and form completion."
+      },
+      {
+        "title": "Document organization",
+        "text": "The firm describes its work as helping complete and organize documentation. Contact the office to confirm current scope."
+      }
+    ],
+    "chips": ["B-1 / B-2", "Cover letters", "Travel itineraries", "Form completion"],
+    "note": "Visa decisions are made by government authorities. The firm does not provide legal advice or court representation."
+  },
+  {
+    "file": "status-change-b2.html",
+    "key": "status",
+    "label": "Status change support",
+    "title": "Change of status & B-2 extensions",
+    "hero": "A clear view of the paperwork ahead.",
+    "intro": "The existing website lists change-of-status and B-2 extension support. Contact INFRA701 LEGAL to confirm the specific forms and document-preparation services currently available.",
+    "items": [
+      {
+        "title": "Change of status",
+        "text": "The current site names change-of-status support as a service category."
+      },
+      {
+        "title": "B-2 extensions",
+        "text": "B-2 extension support is also listed on the current website."
+      },
+      {
+        "title": "Confirm the exact scope",
+        "text": "B-2 extension preparation and asylum-related forms are separate matters. Contact the office to confirm whether support is available for each before completing a questionnaire."
+      }
+    ],
+    "chips": ["Change of status", "B-2 extension"],
+    "note": "The I-589 questionnaire in Resources is for asylum-related information, not a B-2 extension. Contact the office to confirm the right form and available service for your situation."
+  },
+  {
+    "file": "treaty-investor-e2.html",
+    "key": "investor",
+    "label": "Treaty investor support",
+    "title": "E-2 treaty investor support",
+    "hero": "Bring the business materials into view.",
+    "intro": "The current service list includes E-2 treaty investor support with cover-letter, business-plan, and form-preparation materials.",
+    "items": [
+      {
+        "title": "E-2 category",
+        "text": "The current website identifies E-2 as its treaty investor visa service."
+      },
+      {
+        "title": "Business materials",
+        "text": "The service list names business plans and cover letters."
+      },
+      {
+        "title": "Form preparation",
+        "text": "Form-filling support appears in the published service description. Contact the office for current scope and next steps."
+      }
+    ],
+    "chips": ["E-2", "Cover letters", "Business plans", "Form preparation"],
+    "note": "The firm describes its immigration work as document support and does not provide legal advice or court representation."
+  },
+  {
+    "file": "nonimmigrant-visas.html",
+    "key": "nonimmigrant",
+    "label": "Nonimmigrant visa support",
+    "title": "Other nonimmigrant visas",
+    "hero": "Support for a wider range of visa paperwork.",
+    "intro": "The current website lists document-preparation support across several nonimmigrant visa categories.",
+    "items": [
+      {
+        "title": "Categories listed",
+        "text": "L-1, O-1, H-1B, R-1, F-1, and H-2B appear in the current service list."
+      },
+      {
+        "title": "Confirm the service",
+        "text": "The current site does not explain the exact paperwork or scope for each category. Contact the office before beginning."
+      },
+      {
+        "title": "Consultant scope",
+        "text": "INFRA701 LEGAL states that its immigration providers are not attorneys and do not offer legal advice or court representation."
+      }
+    ],
+    "chips": ["L-1", "O-1", "H-1B", "R-1", "F-1", "H-2B"],
+    "note": "This page reflects categories listed on the current website; availability should be confirmed directly with the office."
+  },
+  {
+    "file": "document-preparation.html",
+    "key": "documents",
+    "label": "Document support",
+    "title": "Document preparation & certified translation",
+    "hero": "Careful preparation. Clear organization.",
+    "intro": "INFRA701 LEGAL describes its immigration support as document preparation and certified translation, with an emphasis on accurate, organized materials.",
+    "items": [
+      {
+        "title": "Document preparation",
+        "text": "The current website says the firm helps prepare and organize immigration documentation."
+      },
+      {
+        "title": "Certified translations",
+        "text": "Certified translation is listed among the firm's support services."
+      },
+      {
+        "title": "Submission organization",
+        "text": "The current site describes helping organize materials for submission. The firm does not provide legal advice or court representation."
+      }
+    ],
+    "chips": ["Document preparation", "Certified translation", "Organization"],
+    "note": "Ask the office which languages, document types, and turnaround options are currently available."
+  },
+  {
+    "file": "marriage-facilitation.html",
+    "key": "marriage",
+    "label": "Marriage facilitation",
+    "title": "Same-day marriage facilitation",
+    "hero": "A personal milestone, handled with care.",
+    "intro": "Same-day marriage facilitation is listed on the current INFRA701 LEGAL website. Contact the office to confirm availability and details.",
+    "items": [
+      {
+        "title": "Availability",
+        "text": "The current website advertises same-day marriage facilitation."
+      },
+      {
+        "title": "Details to confirm",
+        "text": "Timing, location, required documents, and what the service includes are confirmed with the office."
+      },
+      {
+        "title": "Speak with the office",
+        "text": "Call to ask about current availability and the information needed before scheduling."
+      }
+    ],
+    "chips": ["Same-day facilitation", "Call to confirm details"],
+    "note": "Call to confirm the details before making plans."
+  },
+  {
+    "file": "government-contracting-preparation.html",
+    "key": "contracting",
+    "label": "Business preparation",
+    "title": "Government Contracting Preparation",
+    "hero": "Get organized before the opportunity moves.",
+    "intro": "Preparation support for organizations pursuing public-sector opportunities. The scope and fit are discussed directly with the team.",
+    "items": [
+      {
+        "title": "Understand the opportunity",
+        "text": "Start with the request, timing, and instructions so the work ahead is clear."
+      },
+      {
+        "title": "Organize the materials",
+        "text": "Map the information and documents that need to be brought together."
+      },
+      {
+        "title": "Plan the response",
+        "text": "Set a practical sequence for preparing and reviewing the submission materials."
+      }
+    ],
+    "chips": ["Opportunity review", "Document organization", "Response planning"],
+    "note": "This is a separate service area from immigration document support. Confirm fit and scope with the team before engaging."
+  }
+]
+
