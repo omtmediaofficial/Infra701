@@ -101,16 +101,17 @@
     "file": "credit-sweep.html",
     "key": "credit",
     "label": "Credit Repair / Credit Sweep",
-    "title": "Credit Report Review & Dispute Support",
+    "title": "AI-Powered Credit Sweep & Dispute Letters",
     "group": "Consumer support",
-    "hero": "Review the report. Focus on what is inaccurate.",
-    "intro": "Credit-report review and dispute support for information you believe is inaccurate, incomplete, or unverifiable. No service can promise to remove accurate, current information or guarantee a score increase.",
+    "hero": "Let AI help build the letter. You stay in control.",
+    "intro": "An AI-powered platform helps draft credit-report dispute letters in minutes for items you believe are inaccurate, incomplete, or unverifiable. You review and approve each draft before sending. No removal of accurate, current information or credit-score increase is promised.",
     "items": [
-      { "title": "Review your reports", "text": "Identify entries you believe are incorrect or incomplete and gather the records related to those items." },
-      { "title": "Organize a truthful dispute", "text": "Prepare a clear, fact-based dispute for the relevant reporting company or furnisher. Do not dispute information you know is accurate or submit false identity-theft claims." },
-      { "title": "Understand your options", "text": "You may dispute errors directly with credit bureaus and furnishers. Ask for the service contract, fees, cancellation terms, and timing before paying for assistance." }
+      { "title": "AI-assisted letter drafts", "text": "The platform helps create dispute-letter drafts in minutes. Review every statement, correct anything that is wrong, and send only information you know to be true." },
+      { "title": "You stay in control", "text": "Review, edit, and approve every letter before sending. The service is offered without an agency engagement or retainer; you decide whether and when to send each draft." },
+      { "title": "Dispute only real errors", "text": "Use dispute support for information you have a good-faith reason to believe is inaccurate, incomplete, or unverifiable. Do not dispute accurate information or submit false identity-theft claims." },
+      { "title": "Know your rights and terms", "text": "You can dispute errors directly with credit bureaus and furnishers. Review the service contract, fees, cancellation terms, timing, and refund policy before paying." }
     ],
-    "chips": ["Credit report review", "Inaccurate information", "Dispute preparation", "No score promises"],
+    "chips": ["AI-assisted drafts", "Self-directed", "You approve the letter", "No score promises"],
     "note": "Credit-repair services cannot legally promise to remove accurate, current negative information. Ask about your rights and costs before signing. The FTC explains that consumers can dispute credit-report errors themselves at no cost.",
     "links": [
       { "label": "Fixing your credit — FTC", "href": "https://consumer.ftc.gov/articles/fixing-your-credit-faqs" },

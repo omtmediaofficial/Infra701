@@ -36,6 +36,7 @@ The build creates the HTML pages, `sitemap.xml`, and `robots.txt` in the reposit
 - Confirm the UCC service scope, including legal opinions, representation, priority analysis, and any filing-removal petitions.
 - Confirm the data-furnisher platforms and operational services offered for consumer and commercial reporting.
 - Review credit-repair fees, written contracts, cancellation disclosures, timing, and state-specific requirements. The site makes no promise to remove accurate information or increase a score.
+- Confirm the exact 110% money-back guarantee terms (covered fee, eligibility, deadline, exclusions, and whether it depends on credit results) before adding that claim to the public page.
 - Confirm Government Contracting Preparation deliverables and service limits.
 
 The prior immigration intake and asylum forms were removed because the new service architecture no longer uses those resources. The Credit Repair / Credit Sweep page is limited to truthful review and dispute support for information believed inaccurate or incomplete; it does not promise removal of accurate, current information.
