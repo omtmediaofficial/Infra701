@@ -47,6 +47,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .nav-menu-panel a { display: flex; justify-content: space-between; gap: 12px; padding: 11px 13px; color: #d1c7bb; font-size: 11px; letter-spacing: .07em; line-height: 1.35; text-transform: uppercase; transition: background .2s ease, color .2s ease; }
 .nav-menu-panel a:first-child { color: var(--amber); border-bottom: 1px solid var(--line); }
 .nav-menu-panel a:hover { background: rgba(255,255,255,.06); color: #fff; }
+.nav-menu-panel a[aria-current="page"] { color: var(--amber); }
 .nav-menu-panel a span { color: var(--amber); }
 .nav-call { display: grid; gap: 2px; padding: 10px 16px; border: 1px solid rgba(255,155,48,.58); color: var(--paper); line-height: 1.25; white-space: nowrap; transition: background .25s ease, color .25s ease; }
 .nav-call span { color: var(--amber); font-size: 9px; letter-spacing: .15em; }
@@ -209,6 +210,10 @@ h1 em, h2 em, .path-panel em { color: var(--amber); font-weight: 400; }
 .note-emblem { display: grid; width: 27px; height: 27px; place-items: center; border: 1px solid rgba(159,78,30,.45); color: #9f4e1e; font-family: Georgia,serif; font-size: 15px; font-style: italic; }
 .detail-note strong { display: block; margin-bottom: 4px; font-size: 12px; }
 .detail-note p { margin-bottom: 0; color: #62594e; font-size: 12px; line-height: 1.7; }
+.source-links { display: flex; flex-wrap: wrap; gap: 11px 22px; margin-top: 15px; }
+.source-link { color: #9f4e1e; font-size: 10px; font-weight: 750; letter-spacing: .025em; text-decoration: underline; text-decoration-color: rgba(159,78,30,.42); text-underline-offset: 3px; }
+.source-link span { margin-left: 4px; color: #bb521a; }
+.source-link:hover { color: #512b15; }
 .detail-lower { padding: clamp(75px, 9vw, 120px) 0; background: #1d1915; }
 .detail-lower-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 75px; }
 .detail-lower-heading .section-kicker { margin-bottom: 22px; }
@@ -465,4 +470,5 @@ h1 em, h2 em, .path-panel em { color: var(--amber); font-weight: 400; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .reveal, .js-enabled .reveal { opacity: 1; transform: none; }
 }
+
 

@@ -1,219 +1,137 @@
 [
   {
-    "file": "fiance-family-petitions.html",
-    "key": "family",
-    "label": "Family-based support",
-    "title": "Fiancé & family petitions",
-    "hero": "Keep the family paperwork in focus.",
-    "intro": "Immigration document support for fiancé and family-based petition materials listed by INFRA701 LEGAL.",
+    "file": "immigration-law.html",
+    "key": "immigration",
+    "label": "Immigration Law",
+    "title": "Immigration Law",
+    "group": "People & legal support",
+    "hero": "Immigration, with the right guidance beside you.",
+    "intro": "Attorney-assisted immigration support for individuals and families. The available service, attorney involvement, and scope of representation are confirmed for each matter.",
     "items": [
-      {
-        "title": "Fiancé petition materials",
-        "text": "The current service list names Form I-129F, a cover letter, intent-to-marry letter, meeting letter, and cover page."
-      },
-      {
-        "title": "Family petition forms",
-        "text": "The published list includes Forms I-130, I-131, I-765, I-864, and I-485, along with CR-1 and IR-1 categories."
-      },
-      {
-        "title": "Document preparation",
-        "text": "The firm describes its role as helping prepare and organize immigration documents. It does not provide legal advice or court representation."
-      }
+      { "title": "Attorney-assisted support", "text": "Discuss the immigration matter and confirm when a licensed attorney will advise or represent you." },
+      { "title": "Your documents, in context", "text": "Bring the relevant history and records so the team can identify what information is needed for the next step." },
+      { "title": "A clear scope before work begins", "text": "Confirm the service, attorney involvement, fees, and timing before engaging." }
     ],
-    "chips": ["I-129F", "I-130", "I-131", "I-765", "I-864", "I-485", "CR-1 / IR-1"],
-    "note": "Which forms and supporting materials apply depends on the matter. Contact the office to confirm the current service scope."
+    "chips": ["Attorney-assisted", "Individuals & families", "Matter-specific scope"],
+    "note": "Attorney names, bar jurisdictions, and the exact immigration services offered should be confirmed with the office before engagement."
   },
   {
-    "file": "employment-based-petitions.html",
-    "key": "employment",
-    "label": "Employment-based support",
-    "title": "Employment-based petitions",
-    "hero": "Organize the details behind the petition.",
-    "intro": "Document preparation support for employment-based categories listed by INFRA701 LEGAL, including EB-2 NIW and EB-1A.",
+    "file": "ucc-filing.html",
+    "key": "ucc",
+    "label": "UCC Filing / Business & Personal",
+    "title": "UCC Filing for Business & Personal Matters",
+    "group": "Business filings",
+    "hero": "Put every filing detail in its place.",
+    "intro": "Preparation and filing support for UCC records, searches, corrections, amendments, and due diligence for businesses, lenders, investors, buyers, debtors, and secured parties.",
     "items": [
-      {
-        "title": "EB-2 NIW",
-        "text": "The existing service list names EB-2 NIW support, petition letters, business plans, and form completion."
-      },
-      {
-        "title": "EB-1A",
-        "text": "EB-1A appears as a separate employment-based category on the current website."
-      },
-      {
-        "title": "Preparation materials",
-        "text": "The page lists petition letters, business plans, and form-filling support. Confirm the current service scope and process with the office."
-      }
+      { "title": "UCC-1 & UCC-3 filings", "text": "Preparation and submission support across all 50 states. Filing-office requirements and timing vary by jurisdiction." },
+      { "title": "Searches & lien due diligence", "text": "UCC search support to help lenders, investors, buyers, and businesses organize relevant filing information." },
+      { "title": "Corrections & changes", "text": "UCC-5 correction statement assistance, plus continuation, amendment, and termination filing preparation." },
+      { "title": "Digital-asset collateral", "text": "Discuss filing preparation related to crypto or tokenized assets. The applicable law and filing approach depend on the asset and jurisdiction." },
+      { "title": "Portfolio review", "text": "UCC filing audits and portfolio cleanup to identify records that may need attention." },
+      { "title": "Representation & priority strategy", "text": "Ask whether attorney-led debtor or secured-party representation, perfection strategy, and lien-priority analysis are available for your matter. A filing challenge may require a state-specific petition to the Secretary of State; eligibility and outcome depend on governing law." }
     ],
-    "chips": ["EB-2 NIW", "EB-1A", "Petition letters", "Business plans", "Form completion"],
-    "note": "INFRA701 LEGAL identifies its immigration providers as California Immigration Consultants, not attorneys. No legal advice or court representation is offered."
+    "chips": ["UCC-1", "UCC-3", "UCC-5", "Search & due diligence", "Portfolio cleanup", "Digital assets"],
+    "note": "Filing acceptance, perfection, lien priority, and correction or removal outcomes depend on the facts and governing state law. Confirm whether attorney services are part of your engagement."
   },
   {
-    "file": "visitor-visas.html",
-    "key": "visitor",
-    "label": "Visitor visa support",
-    "title": "Visitor visas",
-    "hero": "Prepare the supporting details with care.",
-    "intro": "The current website lists B-1/B-2 visitor visa support, including document preparation for a travel-related application.",
+    "file": "aged-shelf-corporations.html",
+    "key": "shelf",
+    "label": "Aged Shelf Corporations",
+    "title": "Aged Shelf Corporations & LLCs",
+    "group": "Business formation",
+    "hero": "Choose an entity with its history in view.",
+    "intro": "Aged corporations and LLCs are available in approximately 48 states, with delivery often available within one business day. New and foreign entity filings are also offered in all 50 states.",
     "items": [
-      {
-        "title": "B-1 / B-2 categories",
-        "text": "The published service list names B-1/B-2 visitor visas."
-      },
-      {
-        "title": "Supporting documents",
-        "text": "The site lists cover letters, travel itineraries, and form completion."
-      },
-      {
-        "title": "Document organization",
-        "text": "The firm describes its work as helping complete and organize documentation. Contact the office to confirm current scope."
-      }
+      { "title": "Aged corporations & LLCs", "text": "Ask about current inventory, entity age, state, status, and transfer documents before selecting an entity. Availability and timing vary." },
+      { "title": "New & foreign filings", "text": "New entity formations and foreign qualification filings are offered across all 50 states. State requirements, fees, and processing times differ." },
+      { "title": "C corporation", "text": "A corporation is a separate legal entity. Formation, governance, ownership, and tax considerations depend on the state and business plan." },
+      { "title": "S corporation election", "text": "S corporation status is a federal tax election for eligible entities and owners, with IRS requirements. Confirm eligibility with a CPA or tax attorney." },
+      { "title": "Limited liability company", "text": "LLC requirements, management, and tax treatment depend on the formation state and tax elections. Review the structure with an attorney or CPA." },
+      { "title": "Mail & privacy options", "text": "Mail services and privacy options are available in select states. Ask what is available for the jurisdiction you choose." }
     ],
-    "chips": ["B-1 / B-2", "Cover letters", "Travel itineraries", "Form completion"],
-    "note": "Visa decisions are made by government authorities. The firm does not provide legal advice or court representation."
+    "chips": ["Corporations", "LLCs", "New filings", "Foreign qualification", "Mail & privacy options"],
+    "note": "An entity’s age alone does not establish operating history, revenue, creditworthiness, or eligibility for financing or contracts. Review its records and status before purchase.",
+    "links": [
+      { "label": "Compare business structures — SBA", "href": "https://www.sba.gov/business-guide/launch-your-business/choose-business-structure" },
+      { "label": "S corporation requirements — IRS", "href": "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations" }
+    ]
   },
   {
-    "file": "status-change-b2.html",
-    "key": "status",
-    "label": "Status change support",
-    "title": "Change of status & B-2 extensions",
-    "hero": "A clear view of the paperwork ahead.",
-    "intro": "The existing website lists change-of-status and B-2 extension support. Contact INFRA701 LEGAL to confirm the specific forms and document-preparation services currently available.",
+    "file": "back-taxes.html",
+    "key": "taxes",
+    "label": "Business & Personal Back Taxes",
+    "title": "Business & Personal Tax Preparation",
+    "group": "Tax services",
+    "hero": "Bring past-due returns back into focus.",
+    "intro": "Business and personal tax-return preparation and filing through Quick CPA & Consulting. Returns are prepared, signed, and e-filed by a licensed CPA, as described by the business.",
     "items": [
-      {
-        "title": "Change of status",
-        "text": "The current site names change-of-status support as a service category."
-      },
-      {
-        "title": "B-2 extensions",
-        "text": "B-2 extension support is also listed on the current website."
-      },
-      {
-        "title": "Confirm the exact scope",
-        "text": "B-2 extension preparation and asylum-related forms are separate matters. Contact the office to confirm whether support is available for each before completing a questionnaire."
-      }
+      { "title": "Federal & state returns", "text": "Tax preparation for both federal and state returns, including past-due filings." },
+      { "title": "CPA-prepared e-filing", "text": "Returns are prepared, signed, and electronically filed by a licensed CPA through Quick CPA & Consulting." },
+      { "title": "A copy for your records", "text": "Receive a PDF copy of the filed return for your records." },
+      { "title": "Filing-year audit support", "text": "The stated offer includes audit protection, tax representation, support, and consulting for the filing year. Ask for the written terms and limits before engaging." },
+      { "title": "Tax preparation and filing only", "text": "Bookkeeping, sales-tax filing, payroll, audits, reviews, and attestation services are not included." }
     ],
-    "chips": ["Change of status", "B-2 extension"],
-    "note": "The I-589 questionnaire in Resources is for asylum-related information, not a B-2 extension. Contact the office to confirm the right form and available service for your situation."
+    "chips": ["Personal returns", "Business returns", "Back taxes", "Federal & state", "CPA e-filing"],
+    "note": "CPA credentials and firm details should be confirmed before engagement. Tax advice, representation, pricing, and audit-support coverage are governed by the written engagement terms.",
+    "links": [
+      { "label": "Check tax preparer credentials — IRS", "href": "https://www.irs.gov/tax-professionals/understanding-tax-return-preparer-credentials-and-qualifications" }
+    ]
   },
   {
-    "file": "treaty-investor-e2.html",
-    "key": "investor",
-    "label": "Treaty investor support",
-    "title": "E-2 treaty investor support",
-    "hero": "Bring the business materials into view.",
-    "intro": "The current service list includes E-2 treaty investor support with cover-letter, business-plan, and form-preparation materials.",
+    "file": "data-furnisher.html",
+    "key": "furnisher",
+    "label": "Data Furnisher / Consumer & Commercial",
+    "title": "Consumer & Commercial Data Furnisher Support",
+    "group": "Data & reporting",
+    "hero": "Make reporting operations easier to understand.",
+    "intro": "Support for organizations that furnish consumer or commercial data, including banks and credit-card issuers. Confirm platforms and exact service scope with the team.",
     "items": [
-      {
-        "title": "E-2 category",
-        "text": "The current website identifies E-2 as its treaty investor visa service."
-      },
-      {
-        "title": "Business materials",
-        "text": "The service list names business plans and cover letters."
-      },
-      {
-        "title": "Form preparation",
-        "text": "Form-filling support appears in the published service description. Contact the office for current scope and next steps."
-      }
+      { "title": "Consumer data furnishers", "text": "For banks, credit-card issuers, and other organizations that provide consumer information to reporting agencies." },
+      { "title": "Commercial data furnishers", "text": "Discuss the needs of organizations that provide business or commercial credit information." },
+      { "title": "Confirm the operating scope", "text": "The specific setup, data, systems, workflow, and ongoing support available are confirmed for each organization." }
     ],
-    "chips": ["E-2", "Cover letters", "Business plans", "Form preparation"],
-    "note": "The firm describes its immigration work as document support and does not provide legal advice or court representation."
+    "chips": ["Consumer data", "Commercial data", "Banks", "Credit-card issuers"],
+    "note": "Data furnishing carries legal and operational responsibilities. Confirm that your reporting practices and dispute processes meet applicable requirements with qualified compliance counsel.",
+    "links": [
+      { "label": "Fair Credit Reporting, Regulation V — CFPB", "href": "https://www.consumerfinance.gov/rules-policy/regulations/1022/" }
+    ]
   },
   {
-    "file": "nonimmigrant-visas.html",
-    "key": "nonimmigrant",
-    "label": "Nonimmigrant visa support",
-    "title": "Other nonimmigrant visas",
-    "hero": "Support for a wider range of visa paperwork.",
-    "intro": "The current website lists document-preparation support across several nonimmigrant visa categories.",
+    "file": "credit-sweep.html",
+    "key": "credit",
+    "label": "Credit Repair / Credit Sweep",
+    "title": "Credit Report Review & Dispute Support",
+    "group": "Consumer support",
+    "hero": "Review the report. Focus on what is inaccurate.",
+    "intro": "Credit-report review and dispute support for information you believe is inaccurate, incomplete, or unverifiable. No service can promise to remove accurate, current information or guarantee a score increase.",
     "items": [
-      {
-        "title": "Categories listed",
-        "text": "L-1, O-1, H-1B, R-1, F-1, and H-2B appear in the current service list."
-      },
-      {
-        "title": "Confirm the service",
-        "text": "The current site does not explain the exact paperwork or scope for each category. Contact the office before beginning."
-      },
-      {
-        "title": "Consultant scope",
-        "text": "INFRA701 LEGAL states that its immigration providers are not attorneys and do not offer legal advice or court representation."
-      }
+      { "title": "Review your reports", "text": "Identify entries you believe are incorrect or incomplete and gather the records related to those items." },
+      { "title": "Organize a truthful dispute", "text": "Prepare a clear, fact-based dispute for the relevant reporting company or furnisher. Do not dispute information you know is accurate or submit false identity-theft claims." },
+      { "title": "Understand your options", "text": "You may dispute errors directly with credit bureaus and furnishers. Ask for the service contract, fees, cancellation terms, and timing before paying for assistance." }
     ],
-    "chips": ["L-1", "O-1", "H-1B", "R-1", "F-1", "H-2B"],
-    "note": "This page reflects categories listed on the current website; availability should be confirmed directly with the office."
-  },
-  {
-    "file": "document-preparation.html",
-    "key": "documents",
-    "label": "Document support",
-    "title": "Document preparation & certified translation",
-    "hero": "Careful preparation. Clear organization.",
-    "intro": "INFRA701 LEGAL describes its immigration support as document preparation and certified translation, with an emphasis on accurate, organized materials.",
-    "items": [
-      {
-        "title": "Document preparation",
-        "text": "The current website says the firm helps prepare and organize immigration documentation."
-      },
-      {
-        "title": "Certified translations",
-        "text": "Certified translation is listed among the firm's support services."
-      },
-      {
-        "title": "Submission organization",
-        "text": "The current site describes helping organize materials for submission. The firm does not provide legal advice or court representation."
-      }
-    ],
-    "chips": ["Document preparation", "Certified translation", "Organization"],
-    "note": "Ask the office which languages, document types, and turnaround options are currently available."
-  },
-  {
-    "file": "marriage-facilitation.html",
-    "key": "marriage",
-    "label": "Marriage facilitation",
-    "title": "Same-day marriage facilitation",
-    "hero": "A personal milestone, handled with care.",
-    "intro": "Same-day marriage facilitation is listed on the current INFRA701 LEGAL website. Contact the office to confirm availability and details.",
-    "items": [
-      {
-        "title": "Availability",
-        "text": "The current website advertises same-day marriage facilitation."
-      },
-      {
-        "title": "Details to confirm",
-        "text": "Timing, location, required documents, and what the service includes are confirmed with the office."
-      },
-      {
-        "title": "Speak with the office",
-        "text": "Call to ask about current availability and the information needed before scheduling."
-      }
-    ],
-    "chips": ["Same-day facilitation", "Call to confirm details"],
-    "note": "Call to confirm the details before making plans."
+    "chips": ["Credit report review", "Inaccurate information", "Dispute preparation", "No score promises"],
+    "note": "Credit-repair services cannot legally promise to remove accurate, current negative information. Ask about your rights and costs before signing. The FTC explains that consumers can dispute credit-report errors themselves at no cost.",
+    "links": [
+      { "label": "Fixing your credit — FTC", "href": "https://consumer.ftc.gov/articles/fixing-your-credit-faqs" },
+      { "label": "Free credit reports", "href": "https://www.annualcreditreport.com/" }
+    ]
   },
   {
     "file": "government-contracting-preparation.html",
     "key": "contracting",
-    "label": "Business preparation",
+    "label": "Government Contracting Preparation",
     "title": "Government Contracting Preparation",
+    "group": "Public-sector opportunities",
     "hero": "Get organized before the opportunity moves.",
     "intro": "Preparation support for organizations pursuing public-sector opportunities. The scope and fit are discussed directly with the team.",
     "items": [
-      {
-        "title": "Understand the opportunity",
-        "text": "Start with the request, timing, and instructions so the work ahead is clear."
-      },
-      {
-        "title": "Organize the materials",
-        "text": "Map the information and documents that need to be brought together."
-      },
-      {
-        "title": "Plan the response",
-        "text": "Set a practical sequence for preparing and reviewing the submission materials."
-      }
+      { "title": "Understand the opportunity", "text": "Start with the request, timing, and instructions so the work ahead is clear." },
+      { "title": "Organize the materials", "text": "Map the information and documents that need to be brought together." },
+      { "title": "Plan the response", "text": "Set a practical sequence for preparing and reviewing submission materials." }
     ],
     "chips": ["Opportunity review", "Document organization", "Response planning"],
-    "note": "This is a separate service area from immigration document support. Confirm fit and scope with the team before engaging."
+    "note": "This is a separate service area. Confirm deliverables and scope before engaging; no contract award or procurement result is guaranteed."
   }
 ]
 
