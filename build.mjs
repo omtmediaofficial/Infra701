@@ -38,7 +38,7 @@ function renderHeader(active) {
     '<header class="site-header">',
     '  <div class="nav-shell">',
     '    <a class="brand" href="index.html" aria-label="Infrastructure 701 Legal home">',
-    '      <span class="brand-crop"><img src="assets/infra701-neon-sign.jpg" alt="Infrastructure 701 Legal"></span>',
+    '      <img src="assets/infra701-neon-logo.jpg" alt="Infrastructure 701 Legal">',
     '    </a>',
     '    <button class="nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Open navigation"><span></span><span></span></button>',
     '    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">',
@@ -243,4 +243,3 @@ const urls = staticPages.map((page) => "  <url><loc>https://infra701legal.com/" 
 await fs.writeFile(path.join(root, "sitemap.xml"), '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls + "\n</urlset>\n", "utf8");
 await fs.writeFile(path.join(root, "robots.txt"), "User-agent: *\nAllow: /\nSitemap: https://infra701legal.com/sitemap.xml\n", "utf8");
 console.log("Generated " + staticPages.length + " static pages.");
-

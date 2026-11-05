@@ -32,9 +32,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 /* Navigation */
 .site-header { position: absolute; z-index: 30; top: 0; left: 0; width: 100%; border-bottom: 1px solid rgba(255,255,255,.12); background: linear-gradient(180deg, rgba(10,9,8,.68), rgba(10,9,8,.12)); }
 .nav-shell { width: min(1480px, calc(100% - var(--side) * 1.4)); min-height: 92px; margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
-.brand { width: 240px; height: 70px; flex: 0 0 auto; overflow: hidden; position: relative; }
-.brand-crop { position: absolute; inset: 0; overflow: hidden; }
-.brand-crop img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 52%; transform: scale(1.15); filter: saturate(1.08); }
+.brand { width: 240px; height: 70px; flex: 0 0 auto; position: relative; }
+.brand img { width: 100%; height: 100%; object-fit: contain; object-position: left center; filter: saturate(1.08); }
 .primary-nav { display: flex; align-items: center; gap: clamp(17px, 2.5vw, 38px); font-size: 12px; letter-spacing: .09em; text-transform: uppercase; }
 .primary-nav > a:not(.nav-call), .nav-menu-trigger { color: rgba(247,240,232,.8); transition: color .25s ease; }
 .primary-nav > a:hover, .primary-nav > a[aria-current="page"], .nav-menu-trigger:hover, .nav-menu-trigger[aria-expanded="true"] { color: var(--amber); }
@@ -470,5 +469,4 @@ h1 em, h2 em, .path-panel em { color: var(--amber); font-weight: 400; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .reveal, .js-enabled .reveal { opacity: 1; transform: none; }
 }
-
 
