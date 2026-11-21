@@ -470,3 +470,19 @@ h1 em, h2 em, .path-panel em { color: var(--amber); font-weight: 400; }
   .reveal, .js-enabled .reveal { opacity: 1; transform: none; }
 }
 
+
+/* Lead form and OMT attribution */
+.lead-form-section{position:relative;overflow:hidden;background:linear-gradient(120deg,rgba(255,116,28,.055),transparent 55%)}
+.lead-form-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(32px,7vw,100px);align-items:start}
+.lead-form-intro h2{font-size:clamp(36px,5vw,62px);line-height:1.06;letter-spacing:-.04em;margin:18px 0}
+.lead-form-intro h2 em{font-family:Georgia,serif;font-weight:400;color:var(--amber)}
+.lead-form{padding:clamp(22px,4vw,44px);border:1px solid var(--line);border-radius:18px;background:linear-gradient(145deg,#211d18,#171512);box-shadow:0 28px 80px #0003}
+.lead-form-heading{display:flex;justify-content:space-between;padding-bottom:18px;margin-bottom:12px;border-bottom:1px solid var(--line);font-size:10px;letter-spacing:.15em;color:var(--muted)}
+.lead-fields{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}
+.lead-form label{display:grid;gap:8px;color:var(--paper-muted);font-size:13px;margin:12px 0}
+.lead-form input,.lead-form select,.lead-form textarea{width:100%;border:1px solid var(--line);border-radius:8px;background:#100f0d;color:var(--paper);padding:13px;font:inherit}
+.lead-form input:focus,.lead-form select:focus,.lead-form textarea:focus{outline:1px solid var(--amber);border-color:var(--amber)}
+.lead-form .lead-message{grid-column:1/-1}.lead-form .lead-trap{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+.lead-form-privacy{font-size:12px;color:var(--muted);margin:12px 0 18px}.lead-form-status{min-height:22px;color:var(--amber);font-size:13px}
+.lead-form button:disabled{opacity:.55;cursor:wait}.omt-credit{font-size:12px;color:var(--muted)}.omt-credit a{color:var(--paper);font-weight:700;text-decoration:underline;text-decoration-color:var(--ember);text-underline-offset:3px}
+@media(max-width:760px){.lead-form-grid{grid-template-columns:1fr}.lead-fields{grid-template-columns:1fr}.lead-form .lead-message{grid-column:auto}.footer-bottom{flex-wrap:wrap;gap:12px}}
