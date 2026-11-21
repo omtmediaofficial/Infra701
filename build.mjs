@@ -93,7 +93,9 @@ function renderShell(page, content) {
     '  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">',
     "  " + preload,
     '  <link rel="stylesheet" href="styles.css">',
-    '  <script src="site.js" defer></script>',
+    '  <script src="supabase-config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="site.js" defer></script>',
     '  <title>' + escapeHtml(page.title) + ' | Infrastructure 701 Legal</title>',
     "</head>",
     '<body id="top" data-page="' + page.key + '">',
