@@ -65,5 +65,33 @@
     }, { threshold: 0.12, rootMargin: "0px 0px -35px 0px" });
     revealItems.forEach((item) => observer.observe(item));
   }
+
+  // OMT credit and secure lead submission
+  const footerBottom = document.querySelector(".footer-bottom");
+  if (footerBottom && !footerBottom.querySelector(".omt-credit")) {
+    const credit = document.createElement("span");
+    credit.className = "omt-credit";
+    credit.innerHTML = 'Built with love by <a href="https://www.omtmediaagency.com/" target="_blank" rel="noopener noreferrer">OMT MEDIA</a>';
+    footerBottom.append(credit);
+  }
+  const leadForm = document.querySelector("#lead-form");
+  leadForm?.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const status = document.querySelector("#lead-form-status");
+    const submit = leadForm.querySelector('button[type="submit"]');
+    const values = new FormData(leadForm);
+    if (values.get("company_website")) return;
+    if (!leadForm.reportValidity()) return;
+    const config = window.INFRA701_SUPABASE;
+    const api = window.supabase?.createClient(config?.url || "", config?.anonKey || "");
+    if (!api) { status.textContent = "The form is temporarily unavailable. Please call the office."; return; }
+    submit.disabled = true; status.textContent = "Sending your inquiry…";
+    const payload = { full_name:String(values.get("full_name")||"").trim(), email:String(values.get("email")||"").trim(), phone:String(values.get("phone")||"").trim()||null, service:String(values.get("service")||""), preferred_contact:String(values.get("preferred_contact")||"Either"), message:String(values.get("message")||"").trim(), status:"new", admin_notes:"", source:"website" };
+    const { error } = await api.from("lead_submissions").insert(payload);
+    submit.disabled = false;
+    if (error) { status.textContent = "We couldn’t send this just now. Please call (844) 463-7277."; return; }
+    leadForm.reset(); status.textContent = "Thank you — your inquiry has been received. The office will follow up about next steps.";
+  });
+
 })();
 
