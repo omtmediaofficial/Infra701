@@ -6,12 +6,13 @@ create table if not exists public.site_admins (
   created_at timestamptz not null default now()
 );
 alter table public.site_admins enable row level security;
-create policy "Admins can read admin roster" on public.site_admins for select to authenticated
-using (public.is_site_admin());
 
 create or replace function public.is_site_admin()
 returns boolean language sql stable security definer set search_path = public
-as $$ select exists (select 1 from public.site_admins where user_id = auth.uid()); $$;
+as $ select exists (select 1 from public.site_admins where user_id = auth.uid()); $;
+
+create policy "Admins can read admin roster" on public.site_admins for select to authenticated
+using (public.is_site_admin());
 
 create table if not exists public.lead_submissions (
   id uuid primary key default gen_random_uuid(),
